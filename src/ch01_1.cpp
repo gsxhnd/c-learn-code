@@ -1,4 +1,5 @@
 #include <iostream>
+#include <uv.h>
 
 /*
 * Simple main function:
