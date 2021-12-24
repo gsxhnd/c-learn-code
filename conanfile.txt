@@ -1,0 +1,6 @@
+ [requires]
+ libuv/1.42.0
+ boost/1.78.0
+
+ [generators]
+ cmake
