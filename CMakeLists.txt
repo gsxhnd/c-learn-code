@@ -7,7 +7,7 @@ set(CONAN_DISABLE_CHECK_COMPILER disable)
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
-
+add_executable(ch01_1 src/ch01_1.cpp)
 add_executable(ch02-1 src/ch02_1.cpp)
 
 target_link_libraries(ch02-1 ${CONAN_LIBS})
